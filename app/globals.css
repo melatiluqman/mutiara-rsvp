@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/*
+ * Palet warna mengikuti GSM "Mutiara — Sweet Seventeen":
+ * ungu, lilac, pink, peach, biru muda, sage — di atas latar krem lembut.
+ */
+@theme {
+  --color-cream: #fcf8f3;
+  --color-mist: #f6f0fa;
+  --color-plum: #8e6fbf;
+  --color-plum-deep: #7657a8;
+  --color-lilac: #c9b6e4;
+  --color-lilac-soft: #efe9f8;
+  --color-blossom: #ee94b5;
+  --color-blossom-soft: #fbdfea;
+  --color-peach: #f4be7b;
+  --color-skywash: #a9c6e8;
+  --color-sage: #9caf88;
+  --color-gold: #e9bc5f;
+  --color-ink: #5c4f6e;
+  --color-ink-soft: #8b7f9c;
+}
+
+@theme inline {
+  --font-display: var(--font-cormorant);
+  --font-script: var(--font-great-vibes);
+  --font-body: var(--font-poppins);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #c9b6e4;
+  color: #fff;
+}
+
+/* Animasi melayang lembut untuk ornamen (pita, paper plane, sparkle). */
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--floaty-rotate, 0deg));
+  }
+  50% {
+    transform: translateY(-10px) rotate(var(--floaty-rotate, 0deg));
+  }
+}
+
+.animate-floaty {
+  animation: floaty 6s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 3.2s ease-in-out infinite;
+}
