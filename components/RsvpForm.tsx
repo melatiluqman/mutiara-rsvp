@@ -107,7 +107,7 @@ export default function RsvpForm() {
         <p className="mt-3 text-sm leading-relaxed text-ink-soft">
           {submitted.kehadiran === "Hadir"
             ? "RSVP kamu sudah tercatat. Sampai jumpa di Sweet Seventeen Mutiara! 💜"
-            : "Konfirmasimu sudah tercatat. Terima kasih sudah mengabari — kamu akan dirindukan! 💌"}
+            : "Konfirmasimu sudah tercatat. Terima kasih sudah mengabari, sampai jumpa lain waktu! 💌"}
         </p>
         <button
           type="button"
