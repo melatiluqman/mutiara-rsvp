@@ -48,8 +48,8 @@ export default function Hero() {
           <span className="text-xl md:text-2xl">Friday</span>
           <span className="h-10 w-px bg-lilac md:h-12" />
           <span className="text-4xl font-semibold md:text-5xl">
-            24
-            <sup className="text-lg md:text-xl">th</sup>
+            July 24
+            <sup className="text-lg md:text-xl">th</sup> 2026
           </span>
           <span className="h-10 w-px bg-lilac md:h-12" />
           <span className="text-xl md:text-2xl">6 PM</span>

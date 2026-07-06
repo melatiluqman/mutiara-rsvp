@@ -49,7 +49,7 @@ export default function EventDetails() {
               </svg>
             }
           >
-            Friday, 24<sup className="text-sm">th</sup>
+            Friday, 24<sup className="text-sm">th</sup> July 2026
           </DetailCard>
           <DetailCard
             title="Waktu"
